@@ -1,0 +1,17 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="Sandbox.MySimpleDialog"
+        Width="320" Height="180"
+        WindowStartupLocation="CenterOwner"
+        CanResize="False"
+        Title="Confirmation">
+
+    <StackPanel Margin="20" Spacing="16">
+        <TextBlock Text="Are you sure you want to do this?" />
+        
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Spacing="8">
+            <Button Content="Yes" Click="Yes_Click" />
+            <Button Content="No" Click="No_Click" />
+        </StackPanel>
+    </StackPanel>
+</Window>
